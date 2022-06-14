@@ -1,0 +1,36 @@
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: black;
+    color:white;
+}
+
+.btn {
+    transition: 0.15s ease-in-out;
+}
+
+/* LINHA 1 */
+
+.filter_box_linha1:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: rgb(131, 131, 131);
+}
+
+.filter_box_linha1 {
+    transition: 0.15s ease-in-out;
+}
+
+/* // */
+
+/* LINHA 2 */ 
+
+.filter_box_linha2:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: rgb(131, 131, 131);
+}
+
+.filter_box_linha2 {
+    transition: 0.15s ease-in-out;
+}

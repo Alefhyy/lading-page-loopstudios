@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* SECTION1 */
+
+.img_section1 {
+    background-image: url('imagens/image-hero.jpg');
+    height: 714px;
+    background-size: cover;
+}
+
+#logo {
+    position: relative;
+    left: -60px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+#nav_header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 212px;
+}
+
+
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.links {
+    display: inline-block;
+    margin-block: 2px;
+    position: relative;
+}
+
+.links::after {
+    content: '';
+    width: 100%;
+    height: 1.8px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .25s ease;
+}
+
+.links:hover::after {
+    transform: scaleX(1);
+}
+
+.nav_list li {
+    margin-left: 32px;
+}
+
+.div_section1 {
+    position: absolute;
+    left: 182px;
+    top: 247px;
+    width: 671px;
+    height:259px;
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    padding-top: 46px;
+    padding-left: 46px;
+}
+
+/* SECTION2 */
+
+#section2 {
+    height: 500px;
+}
+
+.img_section2 {
+    position: absolute;
+    left: 180px;
+    top: 890px;
+}
+
+.div_section2 {
+    width: 583px;
+    height: 346px;
+    margin-top: 377px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 808px;
+    background-color: #ffffff;
+    padding-top: 107px;
+    padding-left: 110px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #131212;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+p {
+    color: #8f8c8c;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+/* SECTION3 */
+
+#section3 {
+    height: 1215px;
+    padding-top: 191px;
+}
+
+h2 {
+    position: absolute;
+    top: 1643px;
+    left: 180px;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #131212;
+}
+
+.btn {
+    width: 174px;
+    height: 46px;
+    border-color: #000000;
+    font-family: 'Alata', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 178px;
+    top: 1643px;
+}
+
+/* LINHA 1 */
+
+.imagens_linha1 {
+    margin-left: 180px;
+    width: 1222px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 33px;
+    z-index: 0;
+}
+
+.txt_img1_linha1, .txt_img2_linha1, .txt_img3_linha1, .txt_img4_linha1 {
+    position: absolute;
+    top: 2172px;
+    margin-left: 47px;
+    margin-bottom: 43px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;
+    z-index: 2;
+}
+
+.filter_box_linha1 {
+    background-color: black;
+    width: 281px;
+    height: 494px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+/* // */
+
+/* LINHA 2 */
+
+.imagens_linha2 {
+    margin-left: 180px;
+    width: 1222px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.txt_img1_linha2, .txt_img2_linha2, .txt_img3_linha2, .txt_img4_linha2 {
+    position: absolute;
+    top: 2699px;
+    margin-left: 47px;
+    margin-bottom: 43px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;
+    z-index: 2;
+}
+
+.filter_box_linha2 {
+    background-color: black;
+    width: 281px;
+    height: 494px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+/* // */
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    height: 175px;
+}
+
+#nav_footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-top: 130px;
+    left: -402.5px;
+    font-size: 17px;
+}
+
+#logo_footer {
+    position: absolute;
+    top: 3053px;
+    left: 180px;
+}
+
+.nav_list_footer {
+    position: absolute;
+    display: flex;
+    list-style: none;
+}
+
+#icons {
+    cursor: pointer;
+    position: relative;
+    top: -65px;
+    left: 1250px;
+    width: 156px;
+}
+
+#copyright {
+    font-family: 'Alata', sans-serif;
+    color: #8f8c8c;
+    position: absolute;
+    right: 175px;
+    top: 3112px;
+}
